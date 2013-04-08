@@ -1,4 +1,4 @@
-<?xml veersion="1.0"?>
+<?xml version="1.0"?>
 <Formular>
 	<Gruppenleiter>
 		<Vorname>Manfred</Vorname>
@@ -9,6 +9,7 @@
 		<Anmerung></Anmerung>
 	</Gruppenleiter>
 	
+	
 	<Person>
 		<Nachname>Specht</Nachname>
 		<Vorname>Sabine</Vorname>
@@ -17,4 +18,5 @@
 		<Erfahrung>ne Menge</Erfahrung>
 		<Schlagzeug>Mini</Schlagzeug>
 	</Person>
+	
 </Formular>
