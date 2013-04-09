@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Chefkoch xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com Aufgabe2.xsd">
+	<Rezept id="1">
+		<info>
+			<Ueberschrift>Lenchens Schokokuchen</Ueberschrift>
+			<Bild>http://www.google.de/bild.jpg</Bild>
+		</info>
+		<Zutatenliste>
+				<Zutat>
+					<Menge>200</Menge>
+					<Einheit>Gramm</Einheit>
+					<Bezeichnung>Butter</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>200</Menge>
+					<Einheit>Gramm</Einheit>
+					<Bezeichnung>Zucker</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>200</Menge>
+					<Einheit>Gramm</Einheit>
+					<Bezeichnung>Schokolade</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>120</Menge>
+					<Einheit>Gramm</Einheit>
+					<Bezeichnung>Mehl</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>0.5</Menge>
+					<Einheit>Teeloeffel</Einheit>
+					<Bezeichnung>Backpulver</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>1</Menge>
+					<Einheit>Packung</Einheit>
+					<Bezeichnung>Vanillezucker</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>4</Menge>
+					<Einheit>Stueck</Einheit>
+					<Bezeichnung>Ei(er)</Bezeichnung>
+				</Zutat>
+		</Zutatenliste>
+		<Zubereitung>
+			<Arbeitszeit>60</Arbeitszeit>
+			<Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
+			<Brennwert>295</Brennwert>
+			<Anleitung>Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiss steif schlagen. Eigelbe, Zucker und Vanillezucker verruehren. Geschmolzene Butter-Schokomasse hinzufuegen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweisse vorsichtig unterheben. In eine gut gefettete Form geben.
+			Bei 180Grad 40 bis 50 Minuten backen. 
+			</Anleitung>
+		</Zubereitung>
+	</Rezept>
+	<Rezept id="2">
+		<info>
+			<Ueberschrift>Lenchens Eierkuchen</Ueberschrift>
+			<Bild>http://www.google.de/bild.jpg</Bild>
+		</info>
+		<Zutatenliste>
+				<Zutat>
+					<Menge>200</Menge>
+					<Einheit>Gramm</Einheit>
+					<Bezeichnung>Butter</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>200</Menge>
+					<Einheit>Gramm</Einheit>
+					<Bezeichnung>Zucker</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>200</Menge>
+					<Einheit>Gramm</Einheit>
+					<Bezeichnung>Schokolade</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>120</Menge>
+					<Einheit>Gramm</Einheit>
+					<Bezeichnung>Mehl</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>0.5</Menge>
+					<Einheit>Teeloeffel</Einheit>
+					<Bezeichnung>Backpulver</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>1</Menge>
+					<Einheit>Packung</Einheit>
+					<Bezeichnung>Vanillezucker</Bezeichnung>
+				</Zutat>
+				<Zutat>
+					<Menge>4</Menge>
+					<Einheit>Stueck</Einheit>
+					<Bezeichnung>Ei(er)</Bezeichnung>
+				</Zutat>
+		</Zutatenliste>
+		<Zubereitung>
+			<Arbeitszeit>60</Arbeitszeit>
+			<Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
+			<Brennwert>295</Brennwert>
+			<Anleitung>Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiss steif schlagen. Eigelbe, Zucker und Vanillezucker verruehren. Geschmolzene Butter-Schokomasse hinzufuegen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweisse vorsichtig unterheben. In eine gut gefettete Form geben.
+			Bei 180Grad 40 bis 50 Minuten backen. 
+			</Anleitung>
+		</Zubereitung>
+	</Rezept>
+</Chefkoch>

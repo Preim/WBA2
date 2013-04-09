@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com"
+	elementFormDefault="qualified">
+
+	<xs:element name="Chefkoch">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Rezept" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="info">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Ueberschrift" type="xs:string" />
+										<xs:element name="Bild" type="xs:anyURI" maxOccurs="unbounded" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Zutatenliste">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Zutat" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Menge">
+														<xs:simpleType>
+															<xs:restriction base="xs:decimal">
+																<xs:minInclusive value="0"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="Einheit">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="Gramm"/>
+																<xs:enumeration value="Stueck"/>
+																<xs:enumeration value="Teeloeffel"/>
+																<xs:enumeration value="Essloeffel"/>
+																<xs:enumeration value="Packung"/>
+																<xs:enumeration value="Bund"/>
+																<xs:enumeration value="ml"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="Bezeichnung" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Zubereitung">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Arbeitszeit">
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:minInclusive value="0"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Schwierigkeitsgrad">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="leicht"/>
+													<xs:enumeration value="normal"/>
+													<xs:enumeration value="schwer"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Brennwert">
+											<xs:simpleType>
+												<xs:restriction base="xs:decimal">
+													<xs:minInclusive value="0"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Anleitung" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:integer" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

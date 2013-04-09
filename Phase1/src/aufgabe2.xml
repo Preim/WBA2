@@ -1,22 +1,21 @@
 <?xml version="1.0"?>
 <Formular>
-	<Gruppenleiter>
-		<Vorname>Manfred</Vorname>
-		<Nachname>Haudrauf</Nachname>
-		<GDatum>01.01.2001</GDatum>
-		<Erfahrung>Keine</Erfahrung>
-		<Schlagzeug>Groß</Schlagzeug>
-		<Anmerung></Anmerung>
-	</Gruppenleiter>
-	
-	
+	<Leiter>
+			<Vorname>Manfred</Vorname>
+			<Nachname>Haudrauf</Nachname>
+			<Email>Haudrauf@Autsch.de</Email>
+			<GDatum>01.01.1973</GDatum>
+			<Erfahrung>Keine</Erfahrung>
+			<Schlagzeug>Groß</Schlagzeug>
+			<Anmerkung></Anmerkung>
+	</Leiter>
 	<Person>
-		<Nachname>Specht</Nachname>
-		<Vorname>Sabine</Vorname>
-		<Email>Sabbel@büro.de</Email>
-		<Gdatum>02.02.2002</Gdatum>
-		<Erfahrung>ne Menge</Erfahrung>
-		<Schlagzeug>Mini</Schlagzeug>
+			<Vorname>Sabine</Vorname>
+			<Nachname>Specht</Nachname>			
+			<Email>Sabbel@büro.de</Email>
+			<GDatum>02.02.1923</GDatum>
+			<Erfahrung>ne Menge</Erfahrung>
+			<Schlagzeug>Mini</Schlagzeug>
+			
 	</Person>
-	
 </Formular>
